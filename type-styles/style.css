@@ -12,6 +12,11 @@ h2{
     padding-top: 40px;
 }
 
+h3 { 
+    font-size: 14pt; 
+    color:dimgray;
+}
+
 .label { 
     font-size: 14pt; 
     color:dimgray;
@@ -23,6 +28,14 @@ h2{
 
 .boldWeight { 
     font-weight:bold; 
+}
+
+.normalStyle { 
+    font-style: normal; 
+}
+
+.italicStyle { 
+    font-style: italic; 
 }
 
 .normalSpace { 
