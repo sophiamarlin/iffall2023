@@ -1,0 +1,22 @@
+html { 
+    font-family: Helvetica, sans-serif;
+    background-color: black;
+    color:antiquewhite;
+    margin-left: 300px; 
+    margin-right: 300px; 
+}
+
+
+img { 
+    width: 30%;
+    vertical-align: top; 
+    display: inline-block;
+    padding-right: 10px;
+}
+
+.phone { 
+    width: 10%;
+    vertical-align: top; 
+    display: inline-block;
+    padding-right: 50px;
+}
