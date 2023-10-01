@@ -1,0 +1,14 @@
+html { 
+    margin-left: 100px;
+    margin-right: 100px; 
+    font-family: 'Helvetica', sans-serif;
+}
+img { 
+    display: inline-block;
+    width: 10%;
+    height: 10%; 
+}
+
+h3 { 
+    font-size: 15pt;
+}
