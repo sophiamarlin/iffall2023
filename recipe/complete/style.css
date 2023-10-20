@@ -1,0 +1,133 @@
+body { 
+    display: block;
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 1000px; 
+    font-family:'Jost';
+}
+
+#headerImage {
+    width: 100%;
+    height: 350px; 
+    object-fit: cover; 
+}
+
+h1 { 
+    text-align: center; 
+    font-size: 30px; 
+    color: #0b54ba; 
+}
+
+.sectionOne ul { 
+    padding: 0; 
+    display: flex; 
+    flex-wrap: wrap; 
+}
+
+.sectionOne li { 
+    text-align: center; 
+    padding-left: 0; 
+    background-color: #0b54ba; 
+    width: 450px;
+    list-style-type: none; 
+    padding-top: 20px; 
+    padding-bottom: 20px; 
+    margin-left: auto;
+    margin-right: auto; 
+    margin-bottom: 50px; 
+}
+
+h2, h3 { 
+    color: white; 
+}
+
+section.sectionTwo { 
+    background-color: lightgray;
+    padding: 30px; 
+}
+
+.sectionTwo li { 
+    font-size:  18px; 
+    margin-bottom: 20px; 
+}
+
+#ingredientsImage { 
+    float: right; 
+    width: 400px; 
+    height: 400px; 
+    object-fit: cover; 
+    margin-left: 20px; 
+}
+
+h4 { 
+    color: #0b54ba; 
+    font-size: 25px; 
+}
+
+.sectionThree li { 
+    font-size:  18px; 
+    margin-bottom: 20px; 
+}
+
+#instructionsImage { 
+    height: 300px; 
+    width: 400px; 
+    object-fit: cover; 
+    float: right; 
+    margin-left: 25px; 
+    margin-bottom: 25px; 
+}
+
+#fullSpanImage { 
+    width: 100%;
+    height: 300px; 
+    object-fit: cover; 
+    margin-bottom: 20px; 
+}
+
+#leftImage { 
+    height: 220px; 
+    width: 400px; 
+    object-fit: cover; 
+    float: left; 
+    margin-right: 60px; 
+}
+
+@media (max-width: 1000px) { 
+    body {
+        width: 500px; 
+     }
+     #headerImage {
+        height: 200px; 
+     }
+     h1 { 
+        font-size: 25px; 
+     }
+     .sectionOne li { 
+        width: 200px; 
+        margin-bottom: 20px; 
+     }
+     h2 { 
+        font-size: 20px; 
+     }
+     h3 { 
+        font-size: 16px; 
+     }
+     #ingredientsImage { 
+        float: none; 
+     }
+     h4 { 
+        font-size: 20px; 
+     }
+    .sectionTwo li, .sectionThree li  { 
+        font-size: 14px; 
+        margin-bottom: 10px; 
+     }
+     #instructionsImage, #fullSpanImage, #leftImage { 
+        float: none; 
+        width: 100%; 
+        height: 100px; 
+        margin-top: 10px; 
+        margin-bottom: 10px; 
+     }
+}
