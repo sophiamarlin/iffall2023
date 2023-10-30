@@ -1,0 +1,290 @@
+/* Michael Kors */
+a#btn_michaelkors { 
+    display: inline-block;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 100px;
+    padding: 10px 40px 0 40px;
+    color: black;
+    font-size: 18px;
+    font-family:'Raleway', 'sans-serif';
+    font-weight: 800;
+    text-decoration: none;
+    transition: all .2s;
+    text-decoration-line: underline;
+    text-underline-offset: 0.2rem;
+}
+
+a#btn_michaelkors:hover {
+    letter-spacing: .15rem; 
+}
+
+/* Ideo */
+a#btn_ideo { 
+    display: inline-block;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 100px;
+    padding: 10px 40px 0 40px;
+    color: lightskyblue;
+    font-size: 25px;
+    font-family:'Raleway', 'sans-serif';
+    font-weight: 500;
+    text-decoration: none;
+    transition: all .2s;
+}
+
+a#btn_ideo:hover {
+    word-spacing: -1ch;
+    color: orange;
+}
+
+/* Pastaria */
+a#btn_pastaria { 
+    display: inline-block;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 100px;
+    padding: 10px 40px 10px 40px;
+    color: #f04924;
+    background-color: #064047;
+    font-size: 25px;
+    font-family:'Oswald', 'sans-serif';
+    font-weight: 500;
+    text-decoration: none;
+    transition: all .3s;
+}
+
+a#btn_pastaria:hover { 
+    color:  #064047;
+    background-color:  #f04924;
+    font-size: 28px; 
+    padding: 15px 45px 15px 45px;
+    margin-top: 90px;
+}
+
+/* Tonight Show */
+a#btn_tonightShow { 
+    display: inline-block;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 60px;
+    color: black; 
+    padding: 20px 20px 20px 20px;
+    font-size: 30px;
+    font-family:'Raleway', 'sans-serif';
+    font-weight: 900;
+    text-decoration: none;
+    text-align: left; 
+    border-radius: 50%;
+    transition: all .3s;
+    line-height: 30px;
+}
+
+a#btn_tonightShow:hover { 
+    outline: black;  
+    outline-style: solid;
+    outline-width: 3px; 
+    line-height: 32px;
+}
+
+/* Missouri Botanical Garden */
+a#btn_missouriBotanicalGarden { 
+    display: inline-block;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 80px;
+    color: #006B36;
+    padding: 20px 20px 20px 20px;
+    font-size: 20px;
+    font-family:'Raleway', 'sans-serif';
+    font-weight: 900;
+    text-decoration: none;
+    transition: all .3s;
+    text-transform: uppercase; 
+}
+
+a#btn_missouriBotanicalGarden:hover { 
+    transform: scale(1.2,1.2);
+    text-shadow: 0 0 2px lightgreen;
+}
+
+/* Hulk Hogan */
+a#btn_hulkHogan { 
+    display: inline-block;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 90px;
+    color: black;
+    padding: 20px 20px 20px 20px;
+    font-size: 20px;
+    font-family: "Rock Salt", "sans-serif"; 
+    font-weight: 900;
+    text-decoration: none;
+    transition: all .3s;
+}
+
+@keyframes shake {
+    from { transform: rotate(-7deg); }
+    33% { transform: rotate(4deg); }
+    66% { transform: rotate(-4deg); }
+    to { transform: rotate(7deg); }
+  }
+
+a#btn_hulkHogan:hover { 
+    text-transform: uppercase; 
+    font-size: 22px; 
+    margin-top: 80px; 
+    word-spacing: 1ch; 
+    color: #ffd200;
+    text-shadow: 1.5px 1.5px black; 
+    animation-name: shake;
+    animation-duration: 0.2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+/* Color Run */
+a#btn_colorRun { 
+    display: inline-block;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 85px;
+    color: white;
+    padding: 25px 20px 25px 20px;
+    font-size: 20px;
+    font-family: "Oswald", "sans-serif"; 
+    font-weight: 500;
+    text-decoration: none;
+    transition: all .5s;
+    text-transform: uppercase; 
+    background-color: black; 
+}
+
+a#btn_colorRun:hover { 
+    background: rgb(46,206,255);
+    background: linear-gradient(90deg, rgba(46,206,255,1) 0%, rgba(255,237,77,1) 50%, rgba(255,0,123,1) 100%);
+    color: black; 
+    padding: 30px 20px 30px 20px; 
+    margin-top: 80px; 
+}
+
+/* Mollyjogger */
+a#btn_mollyjogger { 
+    display: inline-block;
+    box-sizing: border-box;
+    margin: auto;
+    color: #505531;
+    margin-top: 85px;
+    padding: 25px 20px 25px 20px;
+    font-size: 40px;
+    font-family: "Sacramento", "sans-serif"; 
+    font-weight: 500;
+    text-decoration: none;
+    transition: all .4s;
+}
+
+a#btn_mollyjogger:hover::after { 
+    content:"\A Field, Forest, & Stream";
+    white-space: pre;
+    font-size: 20px; 
+    font-family: "Edu TAS Beginner"; 
+
+}
+
+a#btn_mollyjogger:hover { 
+    margin-top: 55px; 
+}
+
+/* NPR */
+a#btn_npr { 
+    display: inline-block;
+    color: white;
+    margin-top: 90px;
+    padding: 20px 20px 20px 20px;
+    font-size: 40px;
+    font-family:"Raleway", "sans-serif"; 
+    font-weight: 800;
+    text-decoration: none;
+    transition: all .4s;
+}
+
+#nprN { 
+    background-color: #d9402b; 
+    width: 33%; 
+    padding: 5px 5px 5px 5px; 
+}
+
+#nprP { 
+    background-color: black; 
+    width: 33%; 
+    padding: 5px 6px 5px 6px; 
+}
+
+#nprR { 
+    background-color: #2b84e3; 
+    width: 33%; 
+    padding: 5px 9px 5px 9px; 
+}
+
+@keyframes nColors {
+    from { background-color:  #2b84e3; }
+    33% { background-color: black;  }
+    66% {  background-color:  #d9402b;  }
+    to { background-color:  #2b84e3; }
+  }
+
+a#btn_npr:hover #nprN{
+    animation-name: nColors;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes pColors {
+    from { background-color:  #d9402b; }
+    33% { background-color: #2b84e3; }
+    66% {  background-color:  black;  }
+    to { background-color:  #d9402b; }
+  }
+
+a#btn_npr:hover #nprP{
+    animation-name: pColors;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rColors {
+    from { background-color: black; }
+    33% { background-color: #d9402b;  }
+    66% {  background-color:  #2b84e3;  }
+    to { background-color:  black;  }
+  }
+
+a#btn_npr:hover #nprR {
+    animation-name: rColors;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+/* Old Navy */
+a#btn_oldNavy { 
+    display: inline-block;
+    color: white;
+    margin-top: 90px;
+    padding: 20px 25px 20px 25px;
+    font-size: 30px;
+    font-family:"Raleway", "sans-serif"; 
+    font-weight: 500;
+    text-decoration: none;
+    transition: all .1s;
+    background-color: #eb6e34;
+    border-radius: 50%; 
+    text-transform: uppercase; 
+}
+
+a#btn_oldNavy:hover { 
+    padding: 40px 40px 40px 40px; 
+    margin-top: 70px; 
+    font-weight: 800; 
+}
+
