@@ -1,0 +1,12 @@
+body { 
+    width: 1000px; 
+    display: block;
+    margin-left: auto; 
+    margin-right: auto; 
+    text-align: center; 
+    font-family: 'Geneva', sans-serif; 
+}
+
+#laptop img{ 
+    width: 1000px; 
+}
