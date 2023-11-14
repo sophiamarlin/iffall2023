@@ -1,0 +1,183 @@
+html { 
+    background-color: #292929; 
+    color: white; 
+}
+
+body { 
+    font-family: 'Crimson Text', 'Times New Roman', 'serif';
+}
+
+section { 
+    margin-left: 50px; 
+    margin-right: 50px; 
+}
+
+/* nav bar */
+
+#navBar { 
+    margin: 0; 
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    background-color: white;
+    color: #292929; 
+}
+
+#navBar span { 
+    margin-right: 30px; 
+    margin-left: 20px; 
+}
+
+#navBar a { 
+    text-decoration: none; 
+    color: #292929; 
+}
+
+#navBar a:hover { 
+    text-decoration: underline;
+}
+
+/* home section */
+
+h1 { 
+    margin-top: 60px; 
+    font-size: 45pt; 
+    margin-bottom: 0px; 
+    text-align: center; 
+}
+
+h2{ 
+    margin-top: 5px; 
+    font-size: 20pt; 
+    text-align: center; 
+}
+
+#years {
+    margin-bottom: 12px; 
+}
+
+#lenoraImg { 
+    margin-top: 10px; 
+    width: 350px; 
+    margin-left: auto; 
+    margin-right: auto; 
+    display: block; 
+}
+
+#introduction { 
+    width: 800px; 
+    margin: auto; 
+    margin-bottom: 40px; 
+    margin-top: 40px; 
+}
+
+#Explore { 
+    margin-bottom: 0; 
+}
+
+#arrow { 
+    font-family: 'Geneva'; 
+    font-weight: 100; 
+    margin-bottom: 100px; 
+}
+
+/* Early Life section */
+
+#earlyLife{
+    /* background-image: url("../images/painting_1.jpeg"); 
+    background-repeat: no-repeat; */
+    width: auto; 
+    /* height: 880px;  */
+    background-size: cover; 
+    /* padding: 20px;  */
+}
+
+#paintingOne { 
+    width: 800px; 
+    float: left; 
+    margin-right: 40px; 
+    margin-bottom: 20px; 
+    border: 3px solid transparent;
+}
+
+#paintingOne:hover { 
+    border: 3px solid #d0d0d0;
+}
+
+
+h3 { 
+    font-size: 18pt; 
+    display:block; 
+}
+
+.paintingInfo { 
+    margin-bottom: 70px; 
+    clear: both; 
+    margin-left: 50px; 
+    margin-right: 50px; 
+}
+
+/* marraige and mexico section */
+#marriageAndMexico{
+    /* background-image: url("../images/painting_3.jpeg"); 
+    background-repeat: no-repeat; */
+    width: auto; 
+    /* height: 900px;  */
+    background-size: cover; 
+    /* padding: 20px;  */
+}
+
+#paintingTwo { 
+    float: right; 
+    margin-left: 40px; 
+    margin-bottom: 20px; 
+    border: 3px solid transparent;
+}
+
+#paintingTwo:hover { 
+    border: 3px solid #d0d0d0;
+}
+
+.infoRight { 
+    text-align: right; 
+}
+
+/* themes section */
+
+#paintingThree { 
+    float: left; 
+    width: 800px; 
+    margin-right: 40px; 
+    margin-bottom: 20px;
+    border: 3px solid transparent; 
+}
+
+#paintingThree:hover { 
+    border: 3px solid #d0d0d0;
+}
+
+/* legacy section */
+
+#paintingFour { 
+    float: right; 
+    margin-left: 40px; 
+    margin-bottom: 20px; 
+    width: 800px; 
+    border: 3px solid transparent; 
+}
+
+#paintingFour:hover { 
+    border: 3px solid #d0d0d0;
+}
+
+
+/* footer */
+footer { 
+    margin-left: 0; 
+    margin-right: 0; 
+    background-color: white; 
+    color:#292929; 
+    width: 100%; 
+    padding: 30px 50px 30px 50px; 
+}
