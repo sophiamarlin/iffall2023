@@ -1,0 +1,370 @@
+html { 
+    background: black; 
+    color: white; 
+    background-size: cover; 
+}
+
+body { 
+    font-family: 'Crimson Text', 'Times New Roman', 'serif';
+}
+
+section { 
+    width: 1400px; 
+    margin: auto; 
+    margin-bottom: 100px; 
+}
+
+p { 
+    font-family: "Poppins", sans-serif;
+    font-weight: 300; 
+    font-size: 10pt;
+    display: block; 
+}
+
+/* nav bar */
+
+#navBar { 
+    margin: 0; 
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    background-color: white;
+    color: #292929; 
+}
+
+#navBar span { 
+    margin-right: 30px; 
+    margin-left: 20px; 
+}
+
+#navBar a { 
+    text-decoration: none; 
+    color: #292929; 
+}
+
+#navBar a:hover { 
+    text-decoration: underline;
+}
+
+/* home section */
+
+h1 { 
+    margin-top: 60px; 
+    font-size: 45pt; 
+    margin-bottom: 0px; 
+    text-align: center; 
+    padding-top: 50px; 
+}
+
+h2{ 
+    margin-top: 5px; 
+    font-size: 20pt; 
+    text-align: center; 
+}
+
+#years {
+    margin-bottom: 12px; 
+    font-weight: 400; 
+}
+
+#leonoraImg { 
+    margin-top: 10px; 
+    width: 300px; 
+    margin-left: auto; 
+    margin-right: auto; 
+    display: block; 
+}
+
+#introduction { 
+    width: 800px; 
+    margin: auto; 
+    margin-bottom: 40px; 
+    margin-top: 40px; 
+    font-size: 12.5pt; 
+}
+
+#Explore { 
+    margin-bottom: 0; 
+}
+
+#arrow { 
+    font-family: 'Geneva'; 
+    font-weight: 100; 
+    margin-bottom: 100px; 
+}
+
+/* Early Life section */
+
+#earlyLife { 
+    padding-top: 60px; 
+}
+
+h3 { 
+    margin-top: 0px; 
+    font-weight: 400; 
+}
+
+#paintingOne { 
+    width: 800px; 
+    float: left; 
+    margin-right: 40px; 
+    margin-bottom: 20px; 
+    border: 3px solid transparent;
+}
+
+#paintingOne:hover { 
+    width: 0px; 
+    padding-bottom: 450px; 
+    padding-right: 800px; 
+    background-image: url("../images/quote 1.jpg"); 
+    background-size: contain; 
+}
+
+h3 { 
+    font-size: 18pt; 
+    display:block; 
+}
+
+.paintingInfo { 
+    margin: auto; 
+    margin-bottom: 70px; 
+    clear: both; 
+    width: 1400px;
+}
+
+.infoLeft { 
+    float: left; 
+}
+
+/* marraige and mexico section */
+#marriageAndMexico{
+    padding-top: 60px; 
+}
+
+#paintingTwo { 
+    float: right; 
+    margin-left: 40px; 
+    margin-bottom: 20px; 
+    border: 3px solid transparent;
+}
+
+#paintingTwo:hover { 
+    width: 0px; 
+    padding-bottom: 484px; 
+    padding-left: 600px; 
+    background-image: url("../images/quote 3.jpg"); 
+    background-size: contain; 
+}
+
+.infoRight { 
+    float: right; 
+    text-align: right; 
+}
+
+/* themes section */
+#themes {
+    padding-top: 60px; 
+}
+
+#paintingThree { 
+    float: left; 
+    width: 800px; 
+    margin-right: 40px; 
+    margin-bottom: 20px;
+    border: 3px solid transparent; 
+}
+
+#paintingThree:hover { 
+    width: 0px; 
+    padding-bottom: 510px; 
+    padding-right: 800px; 
+    background-image: url("../images/quote 2.jpg"); 
+    background-size: contain; 
+}
+
+/* legacy section */
+#legacy {
+    padding-top: 60px; 
+}
+
+#paintingFour { 
+    float: right; 
+    margin-left: 40px; 
+    margin-bottom: 20px; 
+    width: 800px; 
+    border: 3px solid transparent; 
+}
+
+#paintingFour:hover { 
+    width: 0px; 
+    padding-bottom: 353px; 
+    padding-right: 800px; 
+    background-image: url("../images/quote 4.jpg"); 
+    background-size: contain; 
+}
+
+/* footer */
+footer { 
+    margin-left: 0; 
+    margin-right: 0; 
+    background: white; 
+    color:#292929; 
+    padding: 30px 50px 30px 50px; 
+}
+
+
+/* RESPONSIVE STYLING */
+
+@media (max-width: 1450px) { 
+    section { 
+        width: 800px; 
+        margin: auto; 
+    }
+
+    #paintingTwo { 
+        float: none; 
+        margin-left: 0px; 
+    }
+
+    .infoRight { 
+        float: none; 
+        text-align: left; 
+        width: auto; 
+    }
+
+    .infoLeft { 
+        float: none; 
+        width: auto; 
+        text-align: left;  
+    }
+
+}
+
+
+@media (max-width: 850px) { 
+    section { 
+        width: 500px; 
+        margin: auto; 
+    }
+
+    #paintingOne { 
+        width: 500px; 
+    }
+    
+    #paintingOne:hover { 
+        padding-bottom: 280px; 
+        padding-right: 500px; 
+    }
+
+    #paintingTwo { 
+        width: 500px; 
+    }
+    
+    #paintingTwo:hover { 
+        padding-bottom: 403px; 
+        padding-left: 500px; 
+    }
+
+    #paintingThree { 
+        width: 500px; 
+    }
+    
+    #paintingThree:hover { 
+        padding-bottom: 318px; 
+        padding-right: 500px; 
+    }
+
+    #paintingFour { 
+        width: 500px; 
+    }
+
+    #paintingFour:hover { 
+        padding-bottom: 220px; 
+        padding-right: 500px 
+    }
+
+    #introduction { 
+        width: 500px; 
+        font-size: 11.5pt; 
+    }
+
+    h1 { 
+        font-size: 30pt; 
+    }
+
+    #years { 
+        font-size: 16pt; 
+    }
+
+    #navBar span { 
+        margin-right: 15px; 
+    }
+
+}
+
+@media (max-width: 525px) { 
+    section { 
+        width: 300px; 
+        margin: auto; 
+    }
+
+    #paintingOne { 
+        width: 300px; 
+    }
+    
+    #paintingOne:hover { 
+        padding-bottom: 168px; 
+        padding-right: 300px; 
+    }
+
+    #paintingTwo { 
+        width: 300px; 
+    }
+    
+    #paintingTwo:hover { 
+        padding-bottom: 242px; 
+        padding-left: 300px; 
+    }
+
+    #paintingThree { 
+        width: 300px; 
+    }
+    
+    #paintingThree:hover { 
+        padding-bottom: 191px; 
+        padding-right: 300px; 
+    }
+
+    #paintingFour { 
+        width: 300px; 
+    }
+
+    #paintingFour:hover { 
+        padding-bottom: 132px; 
+        padding-right: 300px 
+    }
+
+    #introduction { 
+        width: 300px; 
+        font-size: 10.7pt; 
+    }
+
+    h1 { 
+        font-size: 25pt; 
+    }
+
+    #leonoraImg { 
+        width: 300px; 
+    }
+
+    #navBar span { 
+        margin-right: 10px; 
+    }
+
+    p { 
+        font-size: 9pt; 
+    }
+
+
+}
